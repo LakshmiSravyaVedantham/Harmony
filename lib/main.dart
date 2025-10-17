@@ -2,9 +2,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:dart_openai/dart_openai.dart';
-import 'env/env.dart';
-import 'providers/journal_provider.dart';
-import 'screens/home_screen.dart';
+import 'package:spiritual_harmony_journal/env/env.dart';
+import 'package:spiritual_harmony_journal/providers/journal_provider.dart';
+import 'package:spiritual_harmony_journal/screens/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
